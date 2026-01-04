@@ -12,20 +12,32 @@ The system expands user queries, performs web research, aggregates results, and 
 - 💬 Interactive UI using Chainlit
 - ⚡ Async-safe execution for production
 
+# Install dependencies
+```
+pip install -r requirements.txt
+```
+
+# Initialize the application
+```
+chainlit run main.py
+```
 
 # Project Structure
+```
 ResearchAgent/
 │
 ├── main.py                # Chainlit app + agent orchestration
-├── agents/
-│   ├── query_agent.py     # Query expansion agent
-│   ├── search_agent.py    # Web search agent
-│   └── conversational.py # Summarization agent
-│
-├── tools/
-│   └── tavily_tool.py     # Tavily search tool
 │
 ├── .env                   # API keys
 ├── pyproject.toml
 └── README.md
+```
+
+# Tech Stack
+Python3.12
+Langchain
+Chainlit
+Tavily
+
+
 
