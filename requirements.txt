@@ -1,0 +1,5 @@
+langchain
+langchain_nvidia_ai_endpoints
+tavily
+regex
+chainlit
